@@ -17,11 +17,11 @@ class TodoList < ApplicationRecord
   def status
     case percent_complete.to_i
     when 0
-      'Not started'
+      'Não iniciada'
     when 100
-      'Complete'
+      'Concluída'
     else
-      'In progress'
+      'Em andamento'
     end
   end
   

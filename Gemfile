@@ -24,9 +24,9 @@ gem 'jbuilder', '2.10.0'
 
 ## Added Aplication Gems ##
 # MongoDB driver
-#gem 'mongoid', '~> 7.1.0'
+gem 'mongoid', '~> 7.1.0'
 # Devise auth
-#gem 'devise'
+gem 'devise'
 
 gem 'nested_scaffold'
 ## End ##

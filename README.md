@@ -9,13 +9,13 @@ Foram exigidos os seguintes requisitos:
 
 * Utilizar Ruby on Rails .............. **[ OK ]**
 
-* Utilizar banco de dados MongoDB ..... **[ OK ]**
+* Utilizar banco de dados MongoDB ..... **[ Pendente / Utilizando sqlite3 ]**
 
 * Utilizar autenticação com Devise .... **[ OK ]**
 
 ## Funcionalidades
 
-* Criar uma aplicação de tarefas ...... **[ Pendente ]**
+* Criar uma aplicação de tarefas ...... **[ OK ]**
 
 * Com autenticação de usuário ......... **[ Pendente ]**
 
@@ -32,11 +32,11 @@ com o banco de dados.*
 
 # Instruções de Uso
 
-* Deployment instructions
-
-* Database initialization
-
-* How to run the test suite
+1. Instale e configure o Ruby e o Rails na sua máquina, nas versões indicadas
+2. Execute bundle install para obter as demais dependências
+3. cd até a pasta raiz do projeto (todo-app)
+4. rails s para iniciar o servidor rails
+5. Vá até seu browser e digite localhost:3000/todo_lists/
  
 ## Configurações
 
